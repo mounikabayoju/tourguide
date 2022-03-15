@@ -1,0 +1,144 @@
+.text-light{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.text-light li{
+display:inline-block;
+}
+.lang{
+    display:flex;
+    justify-content:space-between;
+}
+.login{
+    padding-top:5px;
+}
+.text-light{
+    padding-right:15px;
+}
+.text-light li{
+    padding-right:20px;
+   
+}
+.text-light li a{
+    text-decoration:none;
+    color:#fff;
+    
+}
+.text-light li a i{
+    padding-right:7px;
+}
+.logo-menu{
+    display:flex;
+   
+    /* flex:1 70%; */
+}
+.main{
+    
+    background-color: #fb8120;
+    justify-content: space-between;
+}
+.contact{
+    display:flex;
+    position:relative;
+    /* flex: 2 30%; */
+    border-left:3px solid #000;
+    
+    
+}
+.dropdown-menu a{
+    color:#000;
+}
+.contact a{
+    text-decoration: none;
+} 
+.arrow{
+    position:absolute;
+    top: 15px;
+    left: -12px;
+}
+.arrow i{
+    color:#fff;
+    box-sizing: border-box;
+    background-color: #000;
+    padding:5px 10px;
+    border-radius:50px;
+}
+.menu ul li a{   
+    color:#fff;   
+    font-weight:bold; 
+}
+.menu ul li{
+    padding:0px 15px;
+   
+}
+.dropdown-menu{
+    margin-top:9px;
+}
+.p p a{
+    color:#000;   
+    text-decoration: none;
+
+}
+.img a img{
+    width:30px;
+  margin:10px;
+    cursor: pointer;
+}
+
+.cntct{
+    display:flex;
+    height:57px;
+   
+}
+.p{
+    padding-left: 40px;
+
+   
+}
+.p p{
+    margin-bottom: 0px;
+    margin-top: 2px;
+}
+.img{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 3px;
+}
+.modal-dialog{  
+    color:#000;
+    position:relative;
+}
+.modal-dialog i{
+    position: absolute;
+    font-size: 60px;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #fff;
+    background-color: #000;
+    top: -11%;
+    left: 40%;
+}
+.modal-content{
+    position: absolute;
+    top: 115px;
+}
+#register{
+    position:absolute;
+    top:-30px;
+    height:100%;
+}
+.enquiry{
+    border-radius:50px;
+    color:#fff;
+    padding:7px 35px;
+}
+.enquiry:hover{
+    background-color: #000;
+    color:#fff;
+}
+#chkbx{
+    margin-right:10px;
+    text-decoration:none;
+}

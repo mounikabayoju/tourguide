@@ -1,0 +1,14 @@
+.gallery h1{
+    background-color: #eeeeee;
+    color:#fb8120;
+    text-align: center;
+    text-transform: uppercase;
+    padding:15px;
+}
+.gallery{
+    margin-bottom:25px;
+}
+.padd{
+    padding:20px;
+    padding-top:0px;
+}

@@ -1,0 +1,202 @@
+<div class="header">
+    <div class="lang bg-dark">
+        <div class="dropdown">
+            <button type="button" class="btn btn-dark text-left dropdown-toggle small" data-toggle="dropdown">
+                Language
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">English</a>
+                <a class="dropdown-item" href="#">German</a>
+                <a class="dropdown-item" href="#">French</a>
+                <a class="dropdown-item" href="#">English(UK)</a>
+                <a class="dropdown-item" href="#">Spain</a>
+            </div>
+
+            <button type="button" class="btn btn-dark text-left dropdown-toggle small" data-toggle="dropdown">
+                USD
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="">USD</a>
+                <a class="dropdown-item" href="#">INR</a>
+                <a class="dropdown-item" href="#">EURO</a>
+                <a class="dropdown-item" href="#">AUSD</a>
+                <a class="dropdown-item" href="#">J-YEN</a>
+            </div>
+        </div>
+        <div class="login">
+            <ul class="text-light">
+                <li><a href="" data-toggle="modal" data-target="#myModal" class="small"><i class="fas fa-sign-in-alt"></i>Login</a>
+                </li>
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <i class="fas fa-user"></i>
+                                <h5 class="modal-title">User Login</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+
+
+                                <form #ref="ngForm">
+
+
+                                    <div class="form-group">
+                                        <label for="usr">Email or Mobile Number</label>
+                                        <input type="text" class="form-control" id="usr" name="username" ngModel required #ref1="ngModel">
+                                    </div>
+                                    <div *ngIf="ref1.touched && ref1.invalid" class="text-danger"><p>*Enter User Name</p></div>
+
+
+
+                                    <div class="form-group">
+                                        <label for="pwd">Password</label>
+                                        <input type="password" class="form-control" id="pwd" name="password"  ngModel required #ref2="ngModel">
+                                    </div>
+                                    <div *ngIf="ref2.touched && ref2.invalid" class="text-danger"><p>*Enter Password</p></div>
+
+
+                                    <div class="frgt-pswrd mb-2">
+                                        <a href="">Forgot Password?</a>
+                                    </div>
+
+                                    <input type="checkbox" name="checkbox" id="chkbx"><a href="">Remember me</a><br><br>
+                                    <button type="submit" class="btn btn-success font-weight-bold">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal">Close</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <span class="text-light">|</span>
+                <li><a href="" data-toggle="modal" data-target="#register" class="small"><i class="fas fa-registered"></i>Register</a>
+                </li>
+                <div class="modal" id="register">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">Register/Sign Up</h5>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            </div>
+                            <div class="modal-body">
+                                <form action="/action_page.php">
+                                    <div class="form-group">
+                                        <label for="usr">Email or Mobile Number</label>
+                                        <div class="input-group mb-3">
+                                            <input type="text" class="form-control" placeholder="Your Email" id="mail"
+                                                name="email">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">@gmail.com</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Password</label>
+                                        <input type="password" class="form-control" placeholder="********" id="pwd"
+                                            name="password">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="pwd">Confirm Password</label>
+                                        <input type="password" class="form-control" placeholder="********" id="pwd"
+                                            name="password">
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="radio1">
+                                            <input type="radio" class="form-check-input" id="radio1" name="optradio"
+                                                value="option1">Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label" for="radio2">
+                                            <input type="radio" class="form-check-input" id="radio2" name="optradio"
+                                                value="option2">Female
+                                        </label>
+                                    </div>
+                                    <div>
+                                    <label for="start" class="mr-3">Enter DOB</label>
+                                    <input type="date">
+                                    </div>  
+                                    <button type="submit" class="btn btn-success font-weight-bold">Submit</button><br><br>
+                                    <p>Already a member <a href="">Login</a></p>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                               <p>Sign up with</p>
+                               <div class="img"> 
+                                <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/facebook.png"></a>
+                                <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/instagram.png"></a>
+                                <a href="https://www.youtube.com/" target="_blank"><img src="./assets/images/youtube.png"></a>
+                                <a href="https://www.twitter.com/" target="_blank"><img src="./assets/images/twitter.png"></a>
+                                <a href="https://www.google.com/" target="_blank"><img src="./assets/images/google.png"></a>
+                            </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <span class="text-light">|</span>
+                <li><a href="" class="small"><i class="fas fa-gift"></i>Gift Card</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main d-flex">
+        <div class="logo-menu">
+            <div class="logo">
+                <a href=""><img src="./assets/images/tglogo.jpg" width="80"></a>
+            </div>
+            <div class="menu">
+                <nav class="navbar navbar-expand-sm navbar-expand-xs navbar-expand-lg navbar-expand-md">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="home"  routerLinkActive="active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="/about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="/gallery">Gallery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" routerLink="page">Blog</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" routerLink="/services" id="navbardrop" data-toggle="dropdown">
+                                Services
+                            </a>
+                            <div class="dropdown-menu ">
+                                <a class="dropdown-item text-dark" routerLink="/services/accomodation">Accomodation</a>                      
+                                <a class="dropdown-item text-dark" routerLink="/services/cars">Cars</a>
+                                <a class="dropdown-item text-dark" routerLink="/services/flights">Flights</a>
+                                <a class="dropdown-item text-dark" routerLink="/services/cruise">Cruise</a>
+                            </div>
+                        </li>
+                        <li><a routerLink="/enquiry"><button type="button" class="btn btn-outline-light font-weight-bold btn-large enquiry">Enquiry</button></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="contact bg-light">
+            <div class="arrow">
+                <i class="fas fa-angle-right"></i>
+            </div>
+            <div class="cntct bg-light ">
+                <div class="p text-dark">
+                    <p>Contact Us :</p>
+                    <p><a href="">1234 5678 90</a></p>
+                </div>
+                <div class="img">
+                    <a href="https://www.facebook.com/" target="_blank"><img src="./assets/images/facebook.png"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./assets/images/instagram.png"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./assets/images/youtube.png"></a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="./assets/images/twitter.png"></a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.ftr-img img{
+    width:150px;
+}
+.ftr-abt a{
+    text-decoration: none;
+    color:#fff;
+}
+.social-links a img{
+    width:25px;
+    margin:5px;
+}
+.ftr-cpyryt{
+    background-color: #292929;
+    text-align: center;
+    padding:10px;
+    color:#fff;
+}

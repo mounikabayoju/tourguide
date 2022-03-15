@@ -1,0 +1,106 @@
+.banners img{
+    width:100%;
+}
+.carousel-indicators li {   
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.position{
+    position:relative;
+}
+.caption{
+    position:absolute;
+    top: 77px;
+    left: 132px;
+    text-align: left;
+   color:black;
+   
+}
+.team h1{
+    color:#fb8120;
+    background-color: #eeeeee;
+    padding:10px;
+    margin-top:0px;
+    text-align: center;
+}
+.person{
+    border:1px solid #d1d1d1;
+    margin:20px;
+    background-color: #fff;
+    padding:15px;
+}
+.person img{
+    padding: 10px;
+}
+.social a img{
+    width:45px;
+}
+.social{
+    justify-content: space-between;
+    background-color: #ffd93e;
+}
+.team-mates{
+    justify-content: center;
+}
+.member{
+    background-image: url("../../assets/images/bg-nature1.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.relt{
+    position:relative;   
+}
+.abs{
+    position:absolute;
+    top: 185px;
+    left: 23px;
+}
+.abs p{
+    color:#ffd93e;
+    text-align: center;
+    font-weight: bold;
+}
+.choose-us{
+    justify-content: space-between;
+    margin-bottom:25px;
+    
+}
+.choose p{
+    text-align:justify;
+}
+
+.seperation{
+    background-color: #adadad;
+    color:#adadad;
+    position: relative;
+    height:3px;
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.sper-cnttn{
+    position: absolute;
+    border-radius: 87px;
+    width: 65%;
+    top: -61px;
+    left: 18%;
+    font-weight: bold;   
+    background-color: #fb8120;
+}
+.address h3{
+    text-decoration: underline;
+    color: #fb8120;
+    background-color: #eeeeee;
+    padding:10px;
+    text-align: center;
+}
+.map img{
+    width:400px;
+}
+.address{
+    width:400px;
+}
+.location{    
+    justify-content:flex-end;
+}

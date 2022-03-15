@@ -1,0 +1,54 @@
+.image img{
+    width:100%;
+    position: relative;
+}
+.enq{
+    position: absolute;
+    top: 525px;
+    left: 20%
+}
+.enq {
+    font-size:32px;
+    color:#fff;   
+}
+input{
+    margin-left:15px;
+    border-radius:15px;
+    padding:5px 3px;
+    margin:10px;
+    width:60%;
+    text-align: center;
+    background-color: #f7f7f7;
+    border:1px solid #adadad;
+}
+input[type=checkbox]{
+    width:25px;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;;
+}
+.button:hover{
+    background-color: #fff;
+    color:#000;
+}
+select{
+    margin-left:15px;
+    border-radius:15px;
+    padding:5px 3px;
+    margin:10px;
+    width:60%;
+    text-align: center;
+    background-color: #f7f7f7;
+    border:1px solid #adadad;
+}
+.tab-img img{
+    display:block;
+    padding:20px;
+    width:350px;
+}
+.tab-img{
+    margin-top:130px;
+    
+}

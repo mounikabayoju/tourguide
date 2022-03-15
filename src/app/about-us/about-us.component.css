@@ -1,0 +1,126 @@
+.abt-us h2{
+    color:#fb8120;
+    text-align:center;
+    background-color: #eeeeee;
+    padding:10px;
+    text-transform: uppercase;
+}
+.serv i{
+    font-size:45px;
+    color:#fb8120;
+    border:3px solid #fb8120;
+    padding:15px 18px;
+    border-radius:50%;
+    margin-bottom:10px;  
+    background-color: #ffe9d6;
+}
+.options{
+    justify-content: space-between;
+}
+.our-srvice p{
+    color:yellow;
+}
+.body{
+   padding-top:10px;
+    text-align: center;
+}
+.serv{
+    background-color:  #3057a5;
+    margin-top:0px;
+    padding-bottom:15px;
+    padding-top:15px;
+}
+.abt-us h2{
+    margin-bottom:0px !important;
+  
+   
+}
+.abt-us h4{
+    color:#fff;
+}
+.borde{
+    background-color: #fff;
+    margin-top:15px;
+    width:24%;
+    border-radius:10px;
+}
+.pop-tours{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+.most-popular-tours p{
+    margin-bottom:0px;
+}
+.pop img{
+   padding:20px;
+}
+.pop img:hover{
+    filter: grayscale(85%);
+    transform: scale(1.1);
+}
+.color-orange{
+    color:#fb8120;
+}
+.pop i{
+    padding-left:15px;
+    padding-right:5px;
+}
+.pop{
+    border:1px solid #d1d1d1;
+    margin:20px;
+    width:33%;
+}
+.pop a img{
+    width:100%;
+}
+.pop p{
+    padding-bottom:20px;
+}
+.top-reviews,.revws-center,.tour-info{
+    justify-content:center;
+}
+.review{
+    width:24%;
+}
+.bg-image{
+  position:relative;
+    margin-bottom:25px;
+}
+.bg-image img{
+    width:100%;
+    height:100%;
+}
+.img-content{
+    position:absolute;
+    top: 4%;
+    left: 7%;
+    background-color: #fff;
+}
+.img-content p{
+    color:#3057a5;
+    font-weight:bolder;
+    font-size:26px;
+  
+}
+.review{
+    border:1px solid #d1d1d1;
+    padding:10px;
+    text-align: justify;
+    width:25%;
+    margin:10px;
+}
+.revws-center{
+    display: flex;
+}
+.review{
+    text-align: center;
+    background-color: #fff;
+}
+.top-reviews{
+    margin-bottom:20px;
+    background-color: aliceblue;
+}
+.style{
+    font-style: italic;
+    text-align: right;
+}
